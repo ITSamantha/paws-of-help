@@ -1,0 +1,20 @@
+database:
+    user: "postgres"
+    password: "admin"
+    host: "localhost"
+    port: "5432"
+    name: "paws_of_help_db"
+    echo: False
+
+api:
+    host: "localhost"
+    port: "7000"
+    key: "Ag[GR]edY&L-4si&g%w(8I>yhAg7P<$2FX1RHK*qm?e&*P;H@XGo*O)];xNN[!e7V5,W;%Q{buUI?cF^BH<nV<9r_2Z*vX35mWW}b!v3s=4(VM}hK!7g%O93<tQ,Ov_X"
+    algorithm: "HS256"
+    token_expire_time: 30
+
+
+    debug: True
+    version: "1.0"
+    title: "Paws of Help"
+
